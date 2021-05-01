@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.touristapp" >
+    package="com.example.touristapp">
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TouristApp" >
-        <activity android:name=".Places" >
-        </activity>
+        android:theme="@style/Theme.TouristApp">
+        <activity android:name=".sundarban"></activity>
+        <activity android:name=".kuakata" />
+        <activity android:name=".coxsbazar" />
+        <activity android:name=".rangamati" />
+        <activity android:name=".Places" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
